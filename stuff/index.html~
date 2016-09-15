@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content="your,keywords,goes,here">
+    <link rel="stylesheet" type="text/css" href="pres.css">
+    <title> Best Tab </title>
+   
+      
+
+  </head>
+    
+            
+  <body>
+      <div id="header">
+        <h1 align = "center"><a href="index.html"><span style="color: rgb(255, 255, 255);
+              font-weight: bold;"></span><br>
+          </a></h1>
+      </div>
+        
+        <div id="Background">
+        </div>
+      
+        <div id="SideBar">
+            <div id="SideBarContent">
+                <div id="SideBarTitle"><a href="index.html"><bold>ALLAN JABRI</bold></a></div>
+                <div id="SideBarMenu">
+                    <a id="about_link" href="#">About<br></a>
+                    <a id="projects_link" href="#">Projects<br></a>
+                    <a href="https://www.dropbox.com/s/53c34xwofmm34n5/Allan.Jabri.cv.2015.pdf">CV<br></a>
+                    <br>
+                </div>
+                <div id="Social">
+                    <a href="http://facebook.com/ajabri"><img src="res/facebook@2x.png" width=24px height=24px ></a>
+                    <a href="http://twitter.com/ajabri"><img src="res/twitter@2x.png" width=24px height=24px></a>
+                    <a href="http://linkedin.com/in/allanjabri"><img src="res/linked-in@2x.png" width=24px height=24px></a>
+                    <a href="https://open.spotify.com/user/ajabri"><img src="res/spotify@2x.png" width=24px height=24px></a>
+                    <a href="mailto:ajabri@gmail.com"><img src="res/mail@2x.png" width=24px height=24px></a>
+                </div>
+            </div>
+            
+
+      </div>  
+      <script src="isotope.pkgd.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <div id="main"> 
+            <hello id = 'hello'></hello>
+	    <script type="text/javascript">
+	      function scroll()
+	      {
+	      var cur = Math.random()*100;
+	      var next = parseInt(cur % 4, 10);
+	      
+	      //Keep in code - Written by Computerhope.com
+	      //Place this script in your HTML heading section
+	      //18-19 night
+	      
+	      if (next == 1)
+	      {
+              document.getElementById("hello").innerHTML = "Hello";
+	      }
+              else if (next == 2)
+	      {
+              document.getElementById('hello').innerHTML = "Salut";
+	      }
+	      else if (next == 3)
+	      {
+              document.getElementById('hello').innerHTML = "Nǐ Hǎo";
+	      }
+	      else if (next == 0)
+	      {
+              document.getElementById('hello').innerHTML = "Hola";
+	      }
+	      }  
+              setInterval(function(){scroll()}, 1000);
+
+	      $( document ).ready(function() {
+	      $("#projects_link").on("click", function() {
+	        
+	      console.log("HELLO");
+	      $(".grid").isotope({
+	      itemSelector: '.grid-item',
+	      layoutMode: 'fitRows'
+	      });
+	      $(".grid").show();
+	      
+	      });
+	      });
+	 
+
+            </script>
+	    <div class="container" id="project" style="display: none">
+	      <div class="grid">
+		<div class="grid-item">...</div>
+		<div class="grid-item grid-item--width2">...</div>
+		<div class="grid-item">...</div>
+	      </div>
+	    </div>
+      </div>
+  </body>
+</html>

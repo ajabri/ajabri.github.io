@@ -1,0 +1,2 @@
+RewriteEngine on
+#RewriteRule .* - [L,R=404]

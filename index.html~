@@ -82,26 +82,6 @@
 										<span class="icon fa-send">Contact</span>
 									</a>
 								</li>
-<!-- 								<li>
-									<a href="#top" id="top-link" class="skel-layers-ignoreHref">
-										<span class="icon"><img id="top-link-icon" style="display: inline-block;" class="icon svg" src="images/wheel.gif"/>Welcome</span>
-									</a>
-								</li>
-								<li>
-									<a href="#about" id="about-link" class="skel-layers-ignoreHref">
-										<span class="icon"><img id="about-link-icon" class="icon svg" src="images/wheel.gif"/>About</span>
-									</a>
-								</li>								
-								<li>
-									<a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref">
-										<span class="icon"><img id="portfolio-link-icon" class="svg" src="images/wheel.gif"/>Projects</span>
-									</a>
-								</li>								
-								<li>
-									<a href="#contact" id="contact-link" class="skel-layers-ignoreHref">
-										<span class="icon"><img id="contact-link-icon" class="svg" src="images/wheel.gif"/>Contact</span>
-									</a>
-								</li> -->
 							</ul>
 						</nav>
 
@@ -131,23 +111,10 @@
 							<div class="jumbotron floating">
 									<strong><h1 id="hello">Hello!</h1></strong><br>
 									<p style="text-align: left;">I studied Computer Science at <strong><a href="http://cs.princeton.edu"><font COLOR="orange">Princeton</font></a></strong> and now work at <strong><a href="http://facebook.com"><font COLOR="#3355bb">Facebook</font></a></strong>.</p>
-									<p style="text-align: left;"> Things that excite me include <strong> context-aware computing</strong> (especially sub-problems related to <strong>CV, NLP</strong>, and <strong>HCI </strong>), <strong>crowdsourcing information</strong>, <strong>AR</strong>, and the <strong>Future</strong>!</p>
-									<p style="text-align: left;"> I am interested in building things that empower the human mind and augment the human experience. </p>
-									<p style="text-align: left;">I also enjoy swimming, <i>world</i> languages, House music, and find automation beautiful. </p>
+									<p style="text-align: left;"> I am interested in the science fundamental to intelligent agents. I want to build technology that augments the human mind. </p>
+									<p style="text-align: left;">I also enjoy swimming, languages, techno, and observing automation. </p>
 
 							</div>
-
-<!-- 							<header>
-								<h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
-								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
-								<p>Ligula scelerisque justo sem accumsan diam quis<br />
-								vitae natoque dictum sollicitudin elementum.</p>
-							</header> -->
-
-<!-- 							<footer>
-								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
-							</footer> -->
-
 						</div>
 					</section>
 

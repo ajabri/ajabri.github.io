@@ -1,0 +1,498 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Allan Jabri</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+		<!-- <link rel="stylesheet" href="css/reset.css"> CSS reset -->
+		<link rel="stylesheet" href="timeline/css/style.css">
+				<link rel="stylesheet" href="assets/css/main.css" />
+
+		<!-- <script src="timeline/js/modernizr.js"></script>  Modernizr -->
+
+	  	
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							
+						<img style="width: 100%; margin-bottom: 10px ;" src="https://external-sea1-1.xx.fbcdn.net/safe_image.php?d=AQAsRZ40vkZEL1BZ&w=300&h=300&url=https%3A%2F%2Fscontent-sea1-1.xx.fbcdn.net%2Ft39.2365-6%2F12601274_744144205718670_738139005_n.png" alt="" />
+							
+							<h2>ALLAN JABRI</h2>	
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+
+								Prologue's nav expects links in one of two formats:
+
+								1. Hash link (scrolls to a different section within the page)
+
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+							<ul>
+								<li>
+									<a href="#top" id="top-link" class="skel-layers-ignoreHref">
+										<span class="icon fa-home">Welcome</span>
+									</a>
+								</li>
+								<li>
+									<a href="#about" id="about-link" class="skel-layers-ignoreHref">
+										<span class="icon fa-info-circle">About</span>
+									</a>
+								</li>								
+								<li>
+									<a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref">
+										<span class="icon fa-rocket">Projects</span>
+									</a>
+								</li>		
+<!-- 								<li>
+									<a href="#cv" id="cv-link" class="skel-layers-ignoreHref">
+										<span class="icon fa-university">CV</span>
+									</a>
+								</li>	 -->					
+								<li>
+									<a href="#contact" id="contact-link" class="skel-layers-ignoreHref">
+										<span class="icon fa-send">Contact</span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon fa-facebook"><span id="fb-icon" class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-github"><span id="git-icon" class="label">Github</span></a></li>
+							<li><a href="#" class="icon fa-spotify"><span id="spotify-icon" class="label">Spotify</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span id="email-icon"  class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+					<button data-toggle="modal" data-target="#whereami" class = "compass"><img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/compass-icon.png" style="width:40px; height: 40px;"></button>
+				<!-- Intro -->
+					<section id="top" class="one dark cover" style="height: 100vh;">
+						<div class="container" >
+							
+							<div class="jumbotron floating">
+									<strong><h1 id="hello">Hello!</h1></strong><br>
+									<p style="text-align: left;">I studied Computer Science at <strong><a href="http://cs.princeton.edu"><font COLOR="orange">Princeton</font></a></strong> and now work at <strong><a href="http://facebook.com"><font COLOR="#3355bb">Facebook</font></a></strong>.</p>
+									<p style="text-align: left;">I am interested in the science fundamental to intelligent agents and building technology that augments the human mind. </p>
+									<p style="text-align: left;">I also enjoy swimming, languages, techno, and observing patterns. </p>
+									<p style="text-align: left;">My family is from China and Lebanon, but I am an Australian citizen. </p>
+
+							</div>
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+							<div class="jumbotron floating">
+								<h2> CV  
+									<!-- <a onclick="var that=this;_gaq.push(['_trackEvent','Download','PDF',this.href]);setTimeout(function(){location.href=that.href;},200);return false;" href="https://www.dropbox.com/s/53c34xwofmm34n5/Allan.Jabri.cv.2015.pdf?dl=0"><span class="icon fa-download"></span></a> -->
+								</h2>
+								<div id="cd-timeline">
+
+									<!-- The Timeline -->
+									
+									<div class="cd-timeline-block">
+										<div class="cd-timeline-img">
+											<img src="timeline/img/cd-icon-location.svg">
+										</div> <!-- cd-timeline-img -->
+								 
+										<div class="cd-timeline-content">
+											<h2>Started at <font COLOR="3355bb">Facebook</font></h2>
+											<p>Research Engineer at Facebook AI Research</p>
+											<span class="cd-date">Oct 2015 - Now</span>
+										</div> <!-- cd-timeline-content -->
+									</div> <!-- cd-timeline-block -->
+								 
+
+									<div class="cd-timeline-block">
+										<div class="cd-timeline-img">
+											<img src="timeline/img/cd-icon-location.svg">
+										</div> <!-- cd-timeline-img -->
+								 
+										<div class="cd-timeline-content">
+											<h2>Graduated from <font COLOR="orange">Princeton</font></h2>
+											<p>B.S.E in Computer Science</p>
+											<p>Concentration in Statistics & Machine Learning</p>
+											<p>Bachelors Thesis Department Prize</p>
+										<span class="cd-date">June 2015</span>
+										</div> <!-- cd-timeline-content -->
+									</div> <!-- cd-timeline-block -->
+
+									<div class="cd-timeline-block">
+										<div class="cd-timeline-img">
+											<img src="timeline/img/cd-icon-location.svg">
+										</div> <!-- cd-timeline-img -->
+								 
+										<div class="cd-timeline-content">
+											<h2>Interned at <font COLOR="3355bb">Facebook</font></h2>
+											<p>Software Engineer Intern</p>
+											<p>Data & Targeting for Ads</p>
+											<span class="cd-date">June 2014 - Sept 2015</span>
+										</div> <!-- cd-timeline-content -->
+									</div> <!-- cd-timeline-block -->
+
+									<div class="cd-timeline-block">
+										<div class="cd-timeline-img">
+											<img src="timeline/img/cd-icon-location.svg">
+										</div> <!-- cd-timeline-img -->
+								 
+										<div class="cd-timeline-content">
+											<h2>Undergraduate Researcher at <a href="http://vision.princeton.edu" ><font COLOR="orange">Princeton Vision Group</font></a></h2>
+											<p>Egocentric Scene Understanding</p>
+											<span class="cd-date">Jan 2014 - June 2015</span>
+										</div> <!-- cd-timeline-content -->
+									</div> <!-- cd-timeline-block -->
+
+									<div class="cd-timeline-block">
+										<div class="cd-timeline-img">
+											<img src="timeline/img/cd-icon-location.svg">
+										</div> <!-- cd-timeline-img -->
+								 
+										<div class="cd-timeline-content">
+											<h2>Interned at <a href="http://here.com" ><font COLOR="teal">Here Maps </font></a> in Berlin, GER</h2>
+											<p>Software Engineer Intern</p>
+											<p>Mobile Maps</p>
+											<span class="cd-date">June 2013 - Aug 2013</span>
+										</div> <!-- cd-timeline-content -->
+									</div> <!-- cd-timeline-block -->
+
+									<div class="cd-timeline-block">
+										<div class="cd-timeline-img">
+											<img src="timeline/img/cd-icon-location.svg">
+										</div> <!-- cd-timeline-img -->
+								 
+										<div class="cd-timeline-content">
+											<h2>Started at <a href="http://princeton.edu" ><font COLOR="orange">Princeton</font></a></h2>
+											<span class="cd-date">Sept 2011</span>
+										</div> <!-- cd-timeline-content -->
+									</div> <!-- cd-timeline-block -->
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<div id="whereami" class="modal " role="dialog">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+
+					      <div class="modal-body">
+					        <p><strong>You've stumbled upon an oasis in the middle of the ocean and/or cloud.</strong></p>
+					      </div>
+					    </div><!-- /.modal-content -->
+					  </div><!-- /.modal-dialog -->
+					</div><!-- /.modal -->
+
+					<!-- Modal -->
+					<div id="myModal" class="modal fade" role="dialog">
+					  <div class="modal-dialog">
+
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h4 id="modal-title" class="modal-title">Test</h4>
+					      </div>
+
+					      <div class="modal-body">
+							
+							<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+
+
+
+							  <!-- Left and right controls -->
+							  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							    <span class="sr-only">Previous</span>
+							  </a>
+							  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    <span class="sr-only">Next</span>
+							  </a>
+							  <!-- Wrapper for slides -->
+							  <div id="gallery" class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img class="img-carousel" id="modal-cover-img">
+							    </div>
+							  </div>
+
+							</div>
+
+					      </div>
+					      <div class="modal-footer">
+					      <p id="modal-description" style="margin: 0 20px 0 20px;"> Description </p>
+					      </div>
+					    </div>
+
+					  </div>
+					</div>
+
+				<!-- Projects -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<div class="jumbotron floating">
+								<h2>Some Projects (WIP)</h2> <br>
+
+								<div class="row">
+
+									<div class="4u 12u$(mobile)">
+										<article class="item">
+											<a id="rgbd" data-toggle="modal" data-target="#myModal" href="#" class=" fit project"><img class="project-img" src="images/pic03.jpg" alt="" />
+											<header>
+												<h3>First-Person RGB-D <b>(WIP)</b></h3>
+											</header></a>
+										</article>
+
+										<article class="item">
+											<a id="topics" data-toggle="modal" data-target="#myModal" href="#" class=" fit project"><img class="project-img" src="images/pic03.jpg" alt="" />
+											<header>
+												<h3>Discovering Visual Scene Topics of Routine Spaces <strong>(senior thesis)</strong></h3>
+											</header></a>
+										</article>										
+
+										<article class="item">
+											<a id="slang" data-toggle="modal" data-target="#myModal" href="#" class=" fit project"><img class="project-img" src="images/pic03.jpg" alt="" />
+											<header>
+												<h3>Translating French SMS Slang</h3>
+											</header></a>
+										</article>
+									</div>
+									<div class="4u 12u$(mobile)">
+										<article class="item">
+											<a id="timelapse" data-toggle="modal" data-target="#myModal" href="#" class=" fit project"><img class="project-img" src="http://visiongpu.cs.princeton.edu/SUNglass/cgi-bin/tmp/planar_medians/799/animate.gif" alt="" />
+											<header>
+												<h3>Mining Timelapses from RGB Lifelog</h3>
+											</header></a>
+										</article>
+										<article class="item">
+											<a id="realtime" data-toggle="modal" data-target="#myModal" href="#" class=" fit project"><img class="project-img" src="images/pic03.jpg" alt="" />
+											<header>
+												<h3>Real-Time Scene Classification on Google Glass</h3>
+											</header></a>
+										</article>
+
+										<article class="item">
+											<a id="flare" data-toggle="modal" data-target="#myModal" href="#" class=" fit project"><img class="project-img" src="images/pic03.jpg" alt="" />
+											<header>
+												<h3>Flare</h3>
+											</header></a>
+										</article>							
+									</div>
+									<div class="4u 12u$(mobile)">
+										<article class="item">
+											<a id="recon" data-toggle="modal" data-target="#myModal" href="#" class=" fit project"><img class="project-img" src="images/pic02.jpg" alt="" />
+											<header>
+												<h3>3D Reconstruction from Routine First-Person Motion <strong>(senior thesis)</strong></h3>
+											</header></a>
+										</article>
+										<article class="item">
+											<a id="actions" data-toggle="modal" data-target="#myModal" href="#" class=" fit project"><img class="project-img" src="images/pic02.jpg" alt="" />
+											<header>
+												<h3>Place-Triggered Actions on Google Glass</h3>
+											</header></a>
+										</article>
+					
+									</div>
+<!-- 									<div class="4u$ 12u$(mobile)">
+										<article class="item">
+											<a data-toggle="modal" data-target="#myModal" href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+											<header>
+												<h3>Dolor Penatibus</h3>
+											</header>
+										</article>
+										<article class="item">
+											<a data-toggle="modal" data-target="#myModal" href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+											<header>
+												<h3>Place-triggered Actions</h3>
+											</header>
+										</article>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+				<!-- CV -->
+<!-- 					<section id="cv" class="four">
+						<div class="container">
+							<div class="jumbotron floating">
+
+
+							</div>
+						</div>
+					</section> -->
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+							<div class="jumbotron floating">
+								<p> ajabri at gmail dot com</p>
+
+<!-- 								<form method="post" action="#">
+									<div class="row">
+										<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+										<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+										<div class="12u$">
+											<textarea name="message" placeholder="Message"></textarea>
+										</div>
+										<div class="12u$">
+											<input type="submit" value="Send Message" />
+										</div>
+									</div>
+								</form> -->
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-67835289-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script type="text/javascript">
+
+			function scroll() {
+				var cur = Math.random()*100;
+				var next = parseInt(cur % 4, 10);
+				var greetings = ["Hello", "Salut", "”½û’¹¥", "Hola"]
+				document.getElementById("hello").innerHTML = greetings[next];
+			}
+			var projects;
+
+			$(document).ready(function() {
+
+				$.ajax({
+				  dataType: "json",
+				  url: "assets/projects.json",
+				  success: function(data) {
+				  	console.log('loaded!');
+				  	console.log(data);
+				  	projects = data;
+				  	$('.project-img').each(function(i, obj) {
+				  		console.log($(this).parent().attr("id"));
+				  		$(this).attr("src", projects[$(this).parent().attr("id")]['imgz'][0]);
+				  	});
+					$('.project').click( function() {
+						$('#gallery').html("");
+						$('#modal-description').html('<i>' + projects[this.id]['subtitle'] + '</i><br><br>' + '<p style="margin: 0 10px 0 10px">' + projects[this.id]['desc'] + '</p>');
+						$('#modal-title').html(projects[this.id]['title']);
+						$('#modal-cover-img').attr("src", projects[this.id]['imgz'][0]);
+						console.log(projects[this.id]['imgz']);
+						for (img_src in projects[this.id]['imgz']) {
+							if (img_src == 0){
+								$('#gallery').append('<div class="item active"><img style="animation-play-state: paused;" src="' + projects[this.id]['imgz'][img_src] + '"></div>');
+							}
+							else{
+								$('#gallery').append('<div class="item"><img src="' + projects[this.id]['imgz'][img_src] + '"></div>');
+							}
+							console.log('<div class="item"><img src="' + projects[this.id]['imgz'][img_src] + '"></div>');
+						}
+					});
+				  },
+				  error: function() {
+				  	console.log("FUCK");
+				  },
+				  async: false
+				});
+
+				$('.compass').click( function() {
+
+				})
+
+				jQuery(document).bind('keyup', function(e) {
+
+				  if(e.keyCode==39){
+				  jQuery('a.right').trigger('click');
+				  }   
+
+				  else if(e.keyCode==37){
+				  jQuery('a.left').trigger('click');
+				  }
+
+				});
+				$(function(){
+				    $('#whereami').on('show.bs.modal', function(){
+				    	 $('.modal-backdrop').removeClass("modal-backdrop"); 
+				    	$('section').css('opacity',0.0);
+				        var whereami = $(this);
+				        clearTimeout(whereami.data('hideInterval'));
+				        whereami.data('hideInterval', setTimeout(function(){
+				            whereami.modal('hide');
+				        }, 3000));
+				    });
+				    $('#whereami').on('hide.bs.modal', function(){
+				    	$('section').css('opacity',1.0);
+				    });
+
+				});
+
+				setInterval(function(){scroll()}, 1000);
+
+				
+			
+			});
+	 
+			</script>
+
+	</body>
+</html>

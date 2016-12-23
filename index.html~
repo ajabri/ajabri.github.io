@@ -25,6 +25,12 @@
 	  	
 	</head>
 	<body>
+	     <script src="https://unpkg.com/packery@2.1/dist/packery.pkgd.min.js"></script>
+
+     <div class="grid" data-packery='{ "itemSelector": ".grid-item", "gutter": 10 }'>
+       <div class="grid-item">hello</div>
+       <div class="grid-item"></div>
+     </div>
 
 		<!-- Header -->
 			<div id="header">
@@ -99,7 +105,7 @@
 									<strong><h1 id="hello">Hello!</h1></strong><br>
 									<p style="text-align: left;">Currently, I am a Research Engineer at <strong><a href="https://research.facebook.com/allan-jabri"><font COLOR="#3355bb">Facebook AI Research</font></a></strong>.</p>
 									<p style="text-align: left;">I obtained a B.S. in Computer Science from <strong><a href="http://cs.princeton.edu"><font COLOR="orange">Princeton</font></a></strong> in June 2015.</p>
-									<p style="text-align: left;">I am interested in understanding and replicating the mechanisms that underlie intelligence, and building technology that augments the human mind and experience. </p>
+									<p style="text-align: left;">I am interested in understanding and replicating the mechanisms that underlie cognition and intelligence, and building technology that augments the human mind and experience. </p>
 									<p style="text-align: left;">I also enjoy swimming, languages, and futuristic music. </p>
 									<p style="text-align: left;">My family is from China and Lebanon, and I am an Australian citizen. </p>
 
@@ -264,6 +270,27 @@
 									<div class="4u 12u$(mobile)">
 
 										<article class="item">
+											<a id="vqa" href="#" class=" fit project"><img class="project-img" src="images/ring.svg" alt="" />
+											<header>
+												<h3>Learning Visual N-grams from Web Data <strong>(Under Review for CVPR 2017)</strong> </h3>
+											</header></a>
+										</article>		
+									</div>
+
+
+									<div class="4u 12u$(mobile)">
+
+										<article class="item">
+											<a id="vqa" href="https://mainatnips.github.io" class=" fit project"><img class="project-img" src="images/ring.svg alt="" />
+											<header>
+												<h3>Co-organizing Machine Intelligence Workshop at <strong>NIPS 2016</strong> </h3>
+											</header></a>
+										</article>		
+									</div>
+
+									<div class="4u 12u$(mobile)">
+
+										<article class="item">
 											<a id="vqa" href="http://arxiv.org/abs/1606.08390" class=" fit project"><img class="project-img" src="images/ring.svg" alt="" />
 											<header>
 												<h3>Revisiting Visual Question Answering Baselines <strong>(ECCV 2016)</strong> </h3>
@@ -278,20 +305,6 @@
 												<h3>Learning Visual Features from Large Weakly Supervised Data <strong>(ECCV 2016)</strong></h3>
 											</header></a>
 										</article>
-									</div>
-
-
-									<div class="4u 12u$(mobile)">
-
-										<article class="item">
-											<a id="vqa" href="https://mainatnips.github.io" class=" fit project"><img class="project-img" src="images/ring.svg alt="" />
-											<header>
-												<h3>Machine Intelligence Workshop at <strong>NIPS 2016</strong> </h3>
-											</header></a>
-										</article>		
-									</div>
-									<div class="4u 12u$(mobile)">
-					
 									</div>
 								</div>
 							</div>
@@ -410,7 +423,7 @@
 			function scroll() {
 				var cur = Math.random()*100;
 				var next = parseInt(cur % 4, 10);
-				var greetings = ["Hello", "Salut", "您好", "Hola"]
+				var greetings = ["Hello", "Salut", "你好", "Hola"]
 				document.getElementById("hello").innerHTML = greetings[next];
 			}
 			var projects;

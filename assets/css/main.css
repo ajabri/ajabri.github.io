@@ -1951,7 +1951,8 @@
 	}
 
 		.item header {
-			background: #fff;
+			/*background: #fff;*/
+			background: transparent;
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
@@ -1959,7 +1960,11 @@
 
 			.item header h3 {
 				font-size: 0.75em;
-				color:black;
+				color: white;
+			}
+
+			strong {
+				color: white;
 			}
 
 /* Icons */

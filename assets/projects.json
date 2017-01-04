@@ -13,14 +13,14 @@
 "title": "Revisiting Visual Question Answering Baselines",
 "desc": "http://arxiv.org/abs/1606.08390"},
 
-"largeweak": {
+"visualngrams": {
 "id" : "visualngrams",
 "imgz": ["images/visualngrams.jpg"],
 "subtitle" : "Ang Li, Allan Jabri, Armand Joulin, Laurens van der Maaten",
 "title": "Learning Visual N-grams from Web Data",
 "desc": "https://arxiv.org/abs/1612.09161"},
 
-"vqa": {
+"mainnips": {
 "id" : "mainnips",
 "imgz": ["images/nips2016.jpg"],
 "subtitle" : "Co-Organizer",

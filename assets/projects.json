@@ -1,17 +1,31 @@
 {
 "largeweak": {
 "id" : "largeweak",
-"imgz": ["images/weakfeat.svg"],
+"imgz": ["images/weakfeat.jpg"],
 "subtitle" : "Armand Joulin*, Laurens van der Maaten*, Allan Jabri, Nicolas Vasilache (* equal contribution)",
 "title": "Learning Visual Features from Large Weakly Supervised Data",
 "desc": "https://arxiv.org/abs/1511.02251"},
 
 "vqa": {
 "id" : "vqa",
-"imgz": ["images/revisitingvqa.svg"],
+"imgz": ["images/revisitingvqa.jpg"],
 "subtitle" : "Allan Jabri, Armand Joulin, Laurens van der Maaten",
 "title": "Revisiting Visual Question Answering Baselines",
 "desc": "http://arxiv.org/abs/1606.08390"},
+
+"largeweak": {
+"id" : "visualngrams",
+"imgz": ["images/visualngrams.jpg"],
+"subtitle" : "Ang Li, Allan Jabri, Armand Joulin, Laurens van der Maaten",
+"title": "Learning Visual N-grams from Web Data",
+"desc": "https://arxiv.org/abs/1612.09161"},
+
+"vqa": {
+"id" : "mainnips",
+"imgz": ["images/nips2016.jpg"],
+"subtitle" : "Co-Organizer",
+"title": "Machine Intelligence Workshop at NIPS 2016",
+"desc": "https://mainatnips.github.io"},
 
 "slang": {
 "id" : "slang",

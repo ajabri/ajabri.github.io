@@ -1,14 +1,14 @@
 {
 "largeweak": {
 "id" : "largeweak",
-"imgz": ["images/weakfeat.svg"],
+"imgz": ["images/ring.svg"],
 "subtitle" : "Armand Joulin*, Laurens van der Maaten*, Allan Jabri, Nicolas Vasilache (* equal contribution)",
 "title": "Learning Visual Features from Large Weakly Supervised Data",
 "desc": "https://arxiv.org/abs/1511.02251"},
 
 "vqa": {
 "id" : "vqa",
-"imgz": ["images/revisitingvqa.svg"],
+"imgz": ["images/ring.svg"],
 "subtitle" : "Allan Jabri, Armand Joulin, Laurens van der Maaten",
 "title": "Revisiting Visual Question Answering Baselines",
 "desc": "http://arxiv.org/abs/1606.08390"},

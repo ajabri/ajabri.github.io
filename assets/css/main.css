@@ -2190,6 +2190,7 @@
 
 			#main > section.cover {
 				padding: 6em 0;
+				padding-top: 3em;
 				background-size: cover;
 				background-position: center center;
 			}
@@ -2255,6 +2256,7 @@
 
 			#main section.cover {
 				padding: 5em 0;
+				padding-top: 2em;
 			}
 
 	}
@@ -2512,6 +2514,7 @@
 
 				#main section.cover {
 					padding: 4em 0;
+					padding-top: 2em;
 				}
 
 	}
@@ -2551,6 +2554,7 @@
 
 			#main section.cover {
 				padding: 4em 0em;
+				padding-top: 2em;
 			}
 
 				#main section.cover header {

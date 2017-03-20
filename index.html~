@@ -105,10 +105,12 @@
 									<strong><h1 id="hello">Hello!</h1></strong><br>
 									<p style="text-align: left;">Currently, I am a Research Engineer at <strong><a href="https://research.fb.com/people/jabri-allan"><font COLOR="#3355bb">Facebook AI Research</font></a></strong>.</p>
 									<p style="text-align: left;">I obtained a B.S. in Computer Science from <strong><a href="http://cs.princeton.edu"><font COLOR="orange">Princeton</font></a></strong> in June 2015.</p>
-									<p style="text-align: left;">I am interested in understanding and replicating the mechanisms that underlie cognition & intelligence, and building technology that augments the human mind. </p>
+									<p style="text-align: left;">I am interested in replicating the mechanisms that underlie cognition & intelligence, and building technology that augments the human mind. </p>
 									<p style="text-align: left;">I also enjoy swimming, languages, and futuristic music. </p>
 									<p style="text-align: left;">My family is from China and Lebanon, and I am an Australian citizen. </p>
-
+									<br>
+									<p style="text-align: left;"><a href="https://research.fb.com/people/jabri-allan">FAIR bio</a> </p>
+									<p style="text-align: left;"><a href="https://scholar.google.com/citations?hl=en&user=_QlCijoAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a> </p>
 							</div>
 						</div>
 					</section>
@@ -120,29 +122,42 @@
 								<h2>Recent News</h2> <br>
 
 								<div class="row">
-
 									<div class="6u 12u$(mobile)">
+										<article class="item">
+											<a id="commai-iclr" href="https://arxiv.org/abs/1701.08954" class=" fit project"><img class="project-img" src="images/ring.svg" alt="" />
+											<header>
+												<h3>CommAI: Evaluating the first steps towards a useful general AI<strong><br>Submitted to ICLR 2017 Workshop</strong> </h3>
+											</header></a>
+										</article>		
+
 										<article class="item">
 											<a id="visualngrams" href="https://arxiv.org/abs/1612.09161" class=" fit project"><img class="project-img" src="images/ring.svg" alt="" />
 											<header>
-												<h3>Learning Visual N-Grams from Web Data <strong><br>Under Review for CVPR 2017</strong> </h3>
+												<h3>Learning Visual N-Grams from Web Data <strong><br>Submitted to CVPR 2017</strong> </h3>
 											</header></a>
 										</article>		
-										<article class="item">
-											<a id="mainnips" href="https://mainatnips.github.io" class=" fit project"><img class="project-img" src="images/ring.svg" alt="" />
-											<header>
-												<h3>Machine Intelligence Workshop <br> <strong>NIPS 2016</strong> (Co-organizer) </h3>
-											</header></a>
-										</article>		
-									</div>
-
-
-									<div class="6u 12u$(mobile)">
-
 										<article class="item">
 											<a id="vqa" href="http://arxiv.org/abs/1606.08390" class=" fit project"><img class="project-img" src="images/ring.svg" alt="" />
 											<header>
 												<h3>Revisiting Visual Question Answering Baselines <br><strong>ECCV 2016</strong> </h3>
+											</header></a>
+										</article>		
+
+									</div>
+
+
+									<div class="6u 12u$(mobile)">
+										<article class="item">
+											<a id="commai-env" href="https://github.com/facebookresearch/CommAI-env" class=" fit project"><img class="project-img" src="images/ring.svg" alt="" />
+											<header>
+												<h3>CommAI-env</strong> </h3>
+											</header></a>
+										</article>		
+
+										<article class="item">
+											<a id="mainnips" href="https://mainatnips.github.io" class=" fit project"><img class="project-img" src="images/ring.svg" alt="" />
+											<header>
+												<h3>Machine Intelligence Workshop <br> <strong>NIPS 2016</strong> (Co-organizer) </h3>
 											</header></a>
 										</article>		
 										<article class="item">
@@ -291,9 +306,11 @@
 					<section id="about" class="three">
 						<div class="container">
 							<div class="jumbotron floating">
+								
 								<h2> CV  
 									<a onclick="var that=this;_gaq.push(['_trackEvent','Download','PDF',this.href]);setTimeout(function(){location.href=that.href;},200);return false;" href="https://www.dropbox.com/s/met0zrx7p1xablc/Allan_Jabri_cv_2016.pdf?dl=0"><span class="icon fa-download"></span></a>
 								</h2>
+								
 								<div id="cd-timeline">
 
 									<!-- The Timeline -->

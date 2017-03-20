@@ -20,6 +20,20 @@
 "title": "Learning Visual N-grams from Web Data",
 "desc": "https://arxiv.org/abs/1612.09161"},
 
+"commai-iclr": {
+"id" : "commai-iclr",
+"imgz": ["images/ring.svg"],
+"subtitle" : "Marco Baroni, Armand Joulin, Allan Jabri, Germàn Kruszewski, Angeliki Lazaridou, Klemen Simonic, Tomas Mikolov",
+"title": "CommAI: Evaluating the first steps towards a useful general AI",
+"desc": "https://arxiv.org/abs/1701.08954"},
+
+"commai-env": {
+"id" : "commai-env",
+"imgz": ["images/ring.svg"],
+"subtitle" : "Marco Baroni, Armand Joulin, Allan Jabri, Germàn Kruszewski, Angeliki Lazaridou, Klemen Simonic, Tomas Mikolov",
+"title": "CommAI-env",
+"desc": "https://github.com/facebookresearch/CommAI-env"},
+
 "mainnips": {
 "id" : "mainnips",
 "imgz": ["images/nips2016.jpg"],

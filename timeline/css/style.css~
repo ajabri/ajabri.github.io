@@ -41,6 +41,11 @@ h1, h2 {
 Modules - reusable parts of our design
 
 -------------------------------- */
+
+.item{
+  background-color: transparent;
+}
+
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
@@ -142,8 +147,9 @@ header h1 {
   width: 10px;
   height: 10px;
   border-radius: 50%;
+  border-width: 0px;
   background: #3355aa;
-  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 1px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img img {
   display: block;
@@ -166,10 +172,11 @@ header h1 {
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     left: 50%;
-    margin-left: -20px;
+    top: 20px;
+    margin-left: -10px;
     /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
@@ -284,9 +291,9 @@ header h1 {
   background-color: #bac4cb;
 }
 .cd-timeline-content .cd-date {
-/*  float: left;
+  float: left;
   padding: .8em 0;
-  opacity: .7;*/
+  opacity: .7;
 }
 .cd-timeline-content::before {
   content: '';
@@ -328,14 +335,16 @@ header h1 {
   .cd-timeline-content .cd-read-more {
     float: left;
   }
-  .cd-timeline-content .cd-date {
+  .cd-timeline-content .cd-date{
     position: absolute;
     width: 100%;
     left: 122%;
     top: 6px;
     font-size: 13px;
     font-size: 1rem;
+    color: white;
   }
+
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
   }
@@ -354,7 +363,13 @@ header h1 {
     right: 122%;
     text-align: right;
   }
-  .cssanimations .cd-timeline-content.is-hidden {
+
+  .cd-timeline-block:nth-child(odd) .cd-timeline-content .cd-date {
+    left: 122%;
+    right: auto;
+    text-align: left;
+  }
+.cssanimations .cd-timeline-content.is-hidden {
     visibility: hidden;
   }
   .cssanimations .cd-timeline-content.bounce-in {

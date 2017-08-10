@@ -101,9 +101,9 @@
 					<section id="top" class="one dark cover" style="height: 100vh;">
 						<div class="container" >
 							
-							<div class="jumbotron floating">
-									<strong><h1 id="hello">Hello!</h1></strong><br>
-									<p style="text-align: left;"><strong>Update:</strong> I will begin a PhD at <strong><a href="http://bair.berkeley.edu"><font COLOR="#FDB515">UC Berkeley</font></a></strong> this autumn.</p>
+							<div class="jumbotron floating" style="padding-top: 60px;">
+									<!--- <strong><h1 id="hello">Hello!</h1></strong><br> --->
+									<p style="text-align: left;"><strong>Update:</strong> I will begin a PhD at <strong><a href="http://bair.berkeley.edu"><font COLOR="#FDB515">Berkeley</font></a></strong> this autumn.</p>
 									<p style="text-align: left;">Currently, I am a Research Engineer at <strong><a href="https://research.fb.com/people/jabri-allan"><font COLOR="#3355bb">Facebook AI Research</font></a></strong>.</p>
 									<p style="text-align: left;">I obtained a B.S. in Computer Science from <strong><a href="http://cs.princeton.edu"><font COLOR="orange">Princeton</font></a></strong> in June 2015.</p>
 									<p style="text-align: left;">I am interested in replicating the mechanisms that underlie cognition & intelligence, and building technology that augments the human mind. </p>
@@ -248,12 +248,12 @@
 											</header></a>
 										</article>
 
-										<article class="item">
+<!--										<article class="item">
 											<a id="realtime" data-toggle="modal" data-target="#myModal" href="#" class=" fit project"><img class="project-img" src="images/ring.svg" alt="" />
 											<header>
 												<h3>Real-Time Scene Classification on Google Glass</h3>
 											</header></a>
-										</article>
+										</article> -->
 
 <!-- 										<article class="item">
 											<a id="slang" data-toggle="modal" data-target="#myModal" href="#" class=" fit project"><img class="project-img" src="images/ring.svg" alt="" />
@@ -272,12 +272,12 @@
 										</article>
 
 
-										<article class="item">
+<!--										<article class="item">
 											<a id="flare" data-toggle="modal" data-target="#myModal" href="#" class=" fit project"><img class="project-img" src="images/ring.svg" alt="" />
 											<header>
 												<h3>Flare</h3>
 											</header></a>
-										</article>							
+										</article>		-->					
 									</div>
 									<div class="4u 12u$(mobile)">
 
@@ -318,20 +318,32 @@
 									
 									<div class="cd-timeline-block">
 										<div class="cd-timeline-img">
+											<!-- <img src="timeline/img/cd-icon-location.svg"> -->
+										</div> <!-- cd-timeline-img -->
+								 
+										<div class="cd-timeline-content">
+											<a href="http://bair.berkeley.edu"><h2>PhD Candidate at <font COLOR="003262">Berkeley</font></h2></a>
+											<!-- <p></p> -->
+											<span class="cd-date">Aug 2017 - </span>
+										</div> <!-- cd-timeline-content -->
+									</div> <!-- cd-timeline-block -->
+
+									<div class="cd-timeline-block">
+										<div class="cd-timeline-img">
 											<img src="timeline/img/cd-icon-location.svg">
 										</div> <!-- cd-timeline-img -->
 								 
 										<div class="cd-timeline-content">
 											<a href="https://research.fb.com/people/jabri-allan/"><h2>Research Engineer at <font COLOR="3355bb">Facebook AI Research</font></h2></a>
 											<!-- <p></p> -->
-											<span class="cd-date">Oct 2015 - Now</span>
+											<span class="cd-date">Sept 2015 - Aug 2017</span>
 										</div> <!-- cd-timeline-content -->
 									</div> <!-- cd-timeline-block -->
 								 
 
 									<div class="cd-timeline-block">
 										<div class="cd-timeline-img">
-											<img src="timeline/img/cd-icon-location.svg">
+											
 										</div> <!-- cd-timeline-img -->
 								 
 										<div class="cd-timeline-content">
@@ -344,7 +356,7 @@
 
 									<div class="cd-timeline-block">
 										<div class="cd-timeline-img">
-											<img src="timeline/img/cd-icon-location.svg">
+											
 										</div> <!-- cd-timeline-img -->
 								 
 										<div class="cd-timeline-content">
@@ -357,7 +369,7 @@
 
 									<div class="cd-timeline-block">
 										<div class="cd-timeline-img">
-											<img src="timeline/img/cd-icon-location.svg">
+											
 										</div> <!-- cd-timeline-img -->
 								 
 										<div class="cd-timeline-content">
@@ -369,7 +381,7 @@
 
 									<div class="cd-timeline-block">
 										<div class="cd-timeline-img">
-											<img src="timeline/img/cd-icon-location.svg">
+											
 										</div> <!-- cd-timeline-img -->
 								 
 										<div class="cd-timeline-content">
@@ -382,7 +394,7 @@
 
 									<div class="cd-timeline-block">
 										<div class="cd-timeline-img">
-											<img src="timeline/img/cd-icon-location.svg">
+											
 										</div> <!-- cd-timeline-img -->
 								 
 										<div class="cd-timeline-content">

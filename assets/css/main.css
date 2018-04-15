@@ -59,12 +59,12 @@
 	}	 */
 
 	#portfolio > div > div > div > div > div.item-img {
-		width: 10%;
+		width: 15%;
 		float: left;
 	}
 
 	#portfolio > div > div > div > div > div.item-p {
-		width: 90%;
+		width: 85%;
 		float: right;
 		text-align: left;
 	}

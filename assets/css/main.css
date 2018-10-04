@@ -9,7 +9,8 @@
 
 /* Reset */
 	html { 
-	  background: url("http://media.giphy.com/media/RD7OgTTrL1Cj6/giphy.gif") no-repeat center center fixed; 
+/* 	  background: url("http://media.giphy.com/media/RD7OgTTrL1Cj6/giphy.gif") no-repeat center center fixed;  */
+	  background-color: black;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;

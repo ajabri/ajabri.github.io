@@ -1,4 +1,17 @@
 {
+
+"timecycle": {
+    "id" : "timecycle",
+    "imgz": ["images/timecycle_fig1.jpg"]
+},
+"carml": {
+    "id" : "carml",
+    "imgz": ["images/carml_fig1.png"]
+},
+"videowalk": {
+    "id" : "videowalk",
+    "imgz": ["images/teaser_animation.gif"]
+},      
 "largeweak": {
 "id" : "largeweak",
 "imgz": ["images/weakfeat.jpg"],

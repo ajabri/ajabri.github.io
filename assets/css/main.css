@@ -29,6 +29,8 @@
 		display: block;
 	}
 
+
+	
 	#bootstrap-overrides > #main {
 		margin-left: 20%;
 	}
@@ -80,6 +82,10 @@
 		margin: 0.5em 0;
 	}
 
+	#top > strong {
+		color: darkslategray;
+		font-weight: 200;
+	}
 	
 	#nav {
 		font-size: 1rem;
@@ -138,6 +144,7 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+
 
 
 
@@ -1737,6 +1744,10 @@
 		font-style: italic;
 	}
 
+	me {
+		color:slateblue;
+	}
+
 	a {
 		text-decoration: none;
 		color: inherit;
@@ -1748,6 +1759,7 @@
 		outline: 0;
 		/* color: rgb(118, 204, 226); */
 		color: #48689f;
+		font-weight: 500;
 	}
 
 		a:hover {

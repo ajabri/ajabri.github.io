@@ -1,5 +1,8 @@
 {
-
+"rin": {
+    "id" : "rin",
+    "imgz": ["images/image2.gif"]
+},
 "timecycle": {
     "id" : "timecycle",
     "imgz": ["images/timecycle_fig1.jpg"]
